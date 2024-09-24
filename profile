@@ -1,10 +1,10 @@
 [Groups/0]
 # Group Name
-Name=Default
+Name=Armenian
 # Layout
 Default Layout=us-alt-intl-unicode
 # Default Input Method
-DefaultIM=keyboard-ru
+DefaultIM=keyboard-am
 
 [Groups/0/Items/0]
 # Name
@@ -14,17 +14,17 @@ Layout=
 
 [Groups/0/Items/1]
 # Name
-Name=keyboard-ru
+Name=keyboard-am
 # Layout
 Layout=
 
 [Groups/1]
 # Group Name
-Name=Armenian
+Name=Default
 # Layout
 Default Layout=us-alt-intl-unicode
 # Default Input Method
-DefaultIM=keyboard-am
+DefaultIM=keyboard-ru
 
 [Groups/1/Items/0]
 # Name
@@ -34,7 +34,7 @@ Layout=
 
 [Groups/1/Items/1]
 # Name
-Name=keyboard-am
+Name=keyboard-ru
 # Layout
 Layout=
 

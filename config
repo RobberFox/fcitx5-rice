@@ -1,6 +1,6 @@
 [Hotkey]
 # Enumerate when press trigger key repeatedly
-EnumerateWithTriggerKeys=True
+EnumerateWithTriggerKeys=False
 # Temporally switch between first and current Input Method
 AltTriggerKeys=
 # Enumerate Input Method Forward
@@ -34,7 +34,7 @@ TogglePreedit=
 
 [Behavior]
 # Active By Default
-ActiveByDefault=True
+ActiveByDefault=False
 # Share Input State
 ShareInputState=Program
 # Show preedit in application
@@ -55,8 +55,16 @@ OverrideXkbOption=False
 CustomXkbOption=
 # Force Enabled Addons
 EnabledAddons=
-# Force Disabled Addons
-DisabledAddons=
 # Preload input method to be used by default
 PreloadInputMethod=True
+
+[Behavior/DisabledAddons]
+0=clipboard
+1=emoji
+2=fcitx4frontend
+3=kimpanel
+4=quickphrase
+5=spell
+6=wayland
+7=waylandim
 
